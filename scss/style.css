@@ -98,14 +98,11 @@ body {
 @media screen and (min-width: 768px) {
   .trip--small {
     grid-row-start: 2;
-    height: 100%;
   }
 }
-
 .trip__img {
   display: block;
-  -o-object-fit: cover;
-     object-fit: cover;
+  width: 100%;
 }
 .trip__caption {
   color: white;

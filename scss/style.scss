@@ -110,7 +110,7 @@ $m-section-paddding: 40px;
 
         @media  screen and (min-width: 768px) {
             grid-row-start: 2;
-            height: 100%;
+            
             
         }
 
@@ -118,8 +118,7 @@ $m-section-paddding: 40px;
     
     &__img {
         display: block;
-        object-fit: cover;
-
+        width: 100%;
     }
 
     &__caption {        
